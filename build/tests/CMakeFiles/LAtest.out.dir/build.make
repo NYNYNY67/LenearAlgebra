@@ -76,27 +76,27 @@ include tests/CMakeFiles/LAtest.out.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/LAtest.out.dir/flags.make
 
-tests/CMakeFiles/LAtest.out.dir/Main.cpp.o: tests/CMakeFiles/LAtest.out.dir/flags.make
-tests/CMakeFiles/LAtest.out.dir/Main.cpp.o: ../tests/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhi/LinearAlgebra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/LAtest.out.dir/Main.cpp.o"
-	cd /Users/yuhi/LinearAlgebra/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAtest.out.dir/Main.cpp.o -c /Users/yuhi/LinearAlgebra/tests/Main.cpp
+tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: tests/CMakeFiles/LAtest.out.dir/flags.make
+tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../tests/LATests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhi/LinearAlgebra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o"
+	cd /Users/yuhi/LinearAlgebra/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LAtest.out.dir/LATests.cpp.o -c /Users/yuhi/LinearAlgebra/tests/LATests.cpp
 
-tests/CMakeFiles/LAtest.out.dir/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAtest.out.dir/Main.cpp.i"
-	cd /Users/yuhi/LinearAlgebra/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhi/LinearAlgebra/tests/Main.cpp > CMakeFiles/LAtest.out.dir/Main.cpp.i
+tests/CMakeFiles/LAtest.out.dir/LATests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAtest.out.dir/LATests.cpp.i"
+	cd /Users/yuhi/LinearAlgebra/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhi/LinearAlgebra/tests/LATests.cpp > CMakeFiles/LAtest.out.dir/LATests.cpp.i
 
-tests/CMakeFiles/LAtest.out.dir/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAtest.out.dir/Main.cpp.s"
-	cd /Users/yuhi/LinearAlgebra/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhi/LinearAlgebra/tests/Main.cpp -o CMakeFiles/LAtest.out.dir/Main.cpp.s
+tests/CMakeFiles/LAtest.out.dir/LATests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAtest.out.dir/LATests.cpp.s"
+	cd /Users/yuhi/LinearAlgebra/build/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhi/LinearAlgebra/tests/LATests.cpp -o CMakeFiles/LAtest.out.dir/LATests.cpp.s
 
 # Object files for target LAtest.out
 LAtest_out_OBJECTS = \
-"CMakeFiles/LAtest.out.dir/Main.cpp.o"
+"CMakeFiles/LAtest.out.dir/LATests.cpp.o"
 
 # External object files for target LAtest.out
 LAtest_out_EXTERNAL_OBJECTS =
 
-tests/LAtest.out: tests/CMakeFiles/LAtest.out.dir/Main.cpp.o
+tests/LAtest.out: tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o
 tests/LAtest.out: tests/CMakeFiles/LAtest.out.dir/build.make
 tests/LAtest.out: src/libLinearAlgebra.a
 tests/LAtest.out: /usr/local/lib/libgtest.a

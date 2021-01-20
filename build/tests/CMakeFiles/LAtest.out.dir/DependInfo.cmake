@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yuhi/LinearAlgebra/tests/Main.cpp" "/Users/yuhi/LinearAlgebra/build/tests/CMakeFiles/LAtest.out.dir/Main.cpp.o"
+  "/Users/yuhi/LinearAlgebra/tests/LATests.cpp" "/Users/yuhi/LinearAlgebra/build/tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

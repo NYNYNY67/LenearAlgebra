@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LAtest.out.dir/Main.cpp.o"
+  "CMakeFiles/LAtest.out.dir/LATests.cpp.o"
   "LAtest.out"
   "LAtest.out.pdb"
 )

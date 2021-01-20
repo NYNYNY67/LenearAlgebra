@@ -144,32 +144,32 @@ LAtest.out/fast:
 	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/build
 .PHONY : LAtest.out/fast
 
-Main.o: Main.cpp.o
+LATests.o: LATests.cpp.o
 
-.PHONY : Main.o
+.PHONY : LATests.o
 
 # target to build an object file
-Main.cpp.o:
-	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/Main.cpp.o
-.PHONY : Main.cpp.o
+LATests.cpp.o:
+	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o
+.PHONY : LATests.cpp.o
 
-Main.i: Main.cpp.i
+LATests.i: LATests.cpp.i
 
-.PHONY : Main.i
+.PHONY : LATests.i
 
 # target to preprocess a source file
-Main.cpp.i:
-	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/Main.cpp.i
-.PHONY : Main.cpp.i
+LATests.cpp.i:
+	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/LATests.cpp.i
+.PHONY : LATests.cpp.i
 
-Main.s: Main.cpp.s
+LATests.s: LATests.cpp.s
 
-.PHONY : Main.s
+.PHONY : LATests.s
 
 # target to generate assembly for a file
-Main.cpp.s:
-	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/Main.cpp.s
-.PHONY : Main.cpp.s
+LATests.cpp.s:
+	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/LAtest.out.dir/build.make tests/CMakeFiles/LAtest.out.dir/LATests.cpp.s
+.PHONY : LATests.cpp.s
 
 # Help Target
 help:
@@ -180,9 +180,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LAtest.out"
-	@echo "... Main.o"
-	@echo "... Main.i"
-	@echo "... Main.s"
+	@echo "... LATests.o"
+	@echo "... LATests.i"
+	@echo "... LATests.s"
 .PHONY : help
 
 
