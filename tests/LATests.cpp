@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// テストで使う共用サンプルデータ
 class TestFix : public ::testing::Test
 {
 protected:
@@ -61,4 +62,14 @@ TEST_F(TestFix, ForwardErase)
     EXPECT_EQ(ExpectedVec2, Vec2);
     EXPECT_EQ(ExpectedMat3, Mat3);
     EXPECT_EQ(ExpectedVec3, Vec3);
+}
+
+// 後退代入のテスト
+TEST_F(TestFix, BackSubstition)
+{
+    vector<float> ExpectedVec{1, 3, 2};
+    ForwardErase(Mat3, Vec3, false);
+    vector<float> ans{0, 0, 0}; // 解となるベクトルの初期化
+    BackSubstition(Mat3, ans, Vec3);
+    EXPECT_EQ(ExpectedVec, ans);
 }

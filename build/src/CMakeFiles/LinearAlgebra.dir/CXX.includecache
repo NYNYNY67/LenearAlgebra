@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../include/Gauss.hpp
+vector
+-
+
+/Users/yuhi/LinearAlgebra/src/Gauss.cpp
+Gauss.hpp
+/Users/yuhi/LinearAlgebra/src/Gauss.hpp
+
