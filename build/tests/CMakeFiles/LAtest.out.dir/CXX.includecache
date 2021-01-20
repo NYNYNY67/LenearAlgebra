@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Gauss.hpp
+vector
+-
+
+../include/LU.hpp
+vector
+-
+
+../include/VecUtil.hpp
+vector
+-
+iostream
+-
+
+../include/cond.hpp
+
+../include/det.hpp
+Gauss.hpp
+../include/Gauss.hpp
+vector
+-
+
+/Users/yuhi/LinearAlgebra/tests/Main.cpp
+VecUtil.hpp
+/Users/yuhi/LinearAlgebra/tests/VecUtil.hpp
+Gauss.hpp
+/Users/yuhi/LinearAlgebra/tests/Gauss.hpp
+LU.hpp
+/Users/yuhi/LinearAlgebra/tests/LU.hpp
+det.hpp
+/Users/yuhi/LinearAlgebra/tests/det.hpp
+cond.hpp
+/Users/yuhi/LinearAlgebra/tests/cond.hpp
+
