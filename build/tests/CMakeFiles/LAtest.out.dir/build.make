@@ -99,6 +99,9 @@ LAtest_out_EXTERNAL_OBJECTS =
 tests/LAtest.out: tests/CMakeFiles/LAtest.out.dir/Main.cpp.o
 tests/LAtest.out: tests/CMakeFiles/LAtest.out.dir/build.make
 tests/LAtest.out: src/libLinearAlgebra.a
+tests/LAtest.out: /usr/local/lib/libgtest.a
+tests/LAtest.out: /usr/local/lib/libgtest_main.a
+tests/LAtest.out: /usr/local/lib/libgtest.a
 tests/LAtest.out: tests/CMakeFiles/LAtest.out.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yuhi/LinearAlgebra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LAtest.out"
 	cd /Users/yuhi/LinearAlgebra/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LAtest.out.dir/link.txt --verbose=$(VERBOSE)
