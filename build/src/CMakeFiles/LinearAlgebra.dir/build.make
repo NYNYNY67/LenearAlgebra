@@ -141,13 +141,27 @@ src/CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.s"
 	cd /Users/yuhi/LinearAlgebra/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhi/LinearAlgebra/src/VecUtil.cpp -o CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.s
 
+src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o: src/CMakeFiles/LinearAlgebra.dir/flags.make
+src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o: ../src/Pivot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhi/LinearAlgebra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o"
+	cd /Users/yuhi/LinearAlgebra/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o -c /Users/yuhi/LinearAlgebra/src/Pivot.cpp
+
+src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearAlgebra.dir/Pivot.cpp.i"
+	cd /Users/yuhi/LinearAlgebra/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhi/LinearAlgebra/src/Pivot.cpp > CMakeFiles/LinearAlgebra.dir/Pivot.cpp.i
+
+src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearAlgebra.dir/Pivot.cpp.s"
+	cd /Users/yuhi/LinearAlgebra/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhi/LinearAlgebra/src/Pivot.cpp -o CMakeFiles/LinearAlgebra.dir/Pivot.cpp.s
+
 # Object files for target LinearAlgebra
 LinearAlgebra_OBJECTS = \
 "CMakeFiles/LinearAlgebra.dir/cond.cpp.o" \
 "CMakeFiles/LinearAlgebra.dir/det.cpp.o" \
 "CMakeFiles/LinearAlgebra.dir/Gauss.cpp.o" \
 "CMakeFiles/LinearAlgebra.dir/LU.cpp.o" \
-"CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.o"
+"CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.o" \
+"CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o"
 
 # External object files for target LinearAlgebra
 LinearAlgebra_EXTERNAL_OBJECTS =
@@ -157,9 +171,10 @@ src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/det.cpp.o
 src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/Gauss.cpp.o
 src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/LU.cpp.o
 src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.o
+src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o
 src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/build.make
 src/libLinearAlgebra.a: src/CMakeFiles/LinearAlgebra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yuhi/LinearAlgebra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libLinearAlgebra.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yuhi/LinearAlgebra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libLinearAlgebra.a"
 	cd /Users/yuhi/LinearAlgebra/build/src && $(CMAKE_COMMAND) -P CMakeFiles/LinearAlgebra.dir/cmake_clean_target.cmake
 	cd /Users/yuhi/LinearAlgebra/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinearAlgebra.dir/link.txt --verbose=$(VERBOSE)
 

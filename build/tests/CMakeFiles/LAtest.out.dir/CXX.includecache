@@ -14,6 +14,10 @@ vector
 vector
 -
 
+../include/Pivot.hpp
+vector
+-
+
 ../include/VecUtil.hpp
 vector
 -
@@ -43,6 +47,8 @@ det.hpp
 /Users/yuhi/LinearAlgebra/tests/det.hpp
 cond.hpp
 /Users/yuhi/LinearAlgebra/tests/cond.hpp
+Pivot.hpp
+/Users/yuhi/LinearAlgebra/tests/Pivot.hpp
 
 /usr/local/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

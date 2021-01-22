@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libLinearAlgebra.a CMakeFiles/LinearAlgebra.dir/cond.cpp.o CMakeFiles/LinearAlgebra.dir/det.cpp.o CMakeFiles/LinearAlgebra.dir/Gauss.cpp.o CMakeFiles/LinearAlgebra.dir/LU.cpp.o CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libLinearAlgebra.a CMakeFiles/LinearAlgebra.dir/cond.cpp.o CMakeFiles/LinearAlgebra.dir/det.cpp.o CMakeFiles/LinearAlgebra.dir/Gauss.cpp.o CMakeFiles/LinearAlgebra.dir/LU.cpp.o CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.o CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libLinearAlgebra.a

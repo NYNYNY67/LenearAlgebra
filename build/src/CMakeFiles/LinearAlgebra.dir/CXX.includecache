@@ -10,7 +10,27 @@
 vector
 -
 
-/Users/yuhi/LinearAlgebra/src/Gauss.cpp
+../include/LU.hpp
+vector
+-
+
+../include/Pivot.hpp
+vector
+-
+
+../include/VecUtil.hpp
+vector
+-
+iostream
+-
+
+/Users/yuhi/LinearAlgebra/src/LU.cpp
+LU.hpp
+/Users/yuhi/LinearAlgebra/src/LU.hpp
 Gauss.hpp
 /Users/yuhi/LinearAlgebra/src/Gauss.hpp
+VecUtil.hpp
+/Users/yuhi/LinearAlgebra/src/VecUtil.hpp
+Pivot.hpp
+/Users/yuhi/LinearAlgebra/src/Pivot.hpp
 

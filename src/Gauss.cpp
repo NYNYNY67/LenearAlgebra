@@ -1,10 +1,13 @@
 #include "Gauss.hpp"
+#include "Pivot.hpp"
+#include "VecUtil.hpp"
+#include <complex>
 
 // ガウスの消去法によって方程式を解く
 void GaussJordan(vector<vector<float>> A, vector<float> &x, vector<float> y)
 {
     // 前進消去
-    ForwardErase(A, y);
+    ForwardErase(A, y, true);
     // 後退代入
     BackSubstition(A, x, y);
 }
@@ -13,10 +16,16 @@ void GaussJordan(vector<vector<float>> A, vector<float> &x, vector<float> y)
 void ForwardErase(vector<vector<float>> &A, vector<float> &y, bool pivot)
 {
     int n = A.size();
+
     for (int i=0; i<n; i++)
     {
-        // ピボット選択
-        if (pivot) Pivot(A, i);
+        if (pivot)
+        {
+            int prow = Pivot(A, i);
+            Exchange<vector<vector<float>>>(A, i, prow);
+            Exchange<vector<float>>(y, i, prow);
+        }
+
         for (int j=i+1; j<n; j++)
         {
             float scale = A[j][i] / A[i][i];
@@ -27,26 +36,6 @@ void ForwardErase(vector<vector<float>> &A, vector<float> &y, bool pivot)
             y[j] -= scale * y[i];
         }
     }
-}
-
-// ピボット選択, k番目の係数を対象とする O(n)
-void Pivot(vector<vector<float>> &A, int k)
-{
-    int n=A.size();
-    int row=k;
-    float max_a=A[k][k];
-    for (int i=k+1; i<n; i++)
-    {
-        if (A[i][k]>max_a)
-        {
-            max_a = A[i][k];
-            row = i;
-        }
-    }
-    vector<float> tmp(n);
-    tmp = A[row];
-    A[row] = A[k];
-    A[k] = tmp;
 }
 
 // 後退代入 O(n^2)
@@ -73,12 +62,4 @@ void FrontSubstition(const vector<vector<float>> &A, vector<float> &x, const vec
     }
 }
 
-// LU分解された方程式を解く O(n^2)
-// LUx = y をxについて解く
-void LUSolve(const vector<vector<float>> &L, const vector<vector<float>> &U, vector<float> &x, const vector<float> &y)
-{
-    int n=L.size();
-    vector<float> tmp(n, 0); // tmp = Ux　とする。
-    FrontSubstition(L, tmp, y);
-    BackSubstition(U, x, tmp);
-}
+

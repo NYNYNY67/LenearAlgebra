@@ -3,6 +3,7 @@
 
 tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../include/Gauss.hpp
 tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../include/LU.hpp
+tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../include/Pivot.hpp
 tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../include/VecUtil.hpp
 tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../include/cond.hpp
 tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o: ../include/det.hpp

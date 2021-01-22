@@ -4,6 +4,7 @@
 tests/CMakeFiles/LAtest.out.dir/LATests.cpp.o
  ../include/Gauss.hpp
  ../include/LU.hpp
+ ../include/Pivot.hpp
  ../include/VecUtil.hpp
  ../include/cond.hpp
  ../include/det.hpp

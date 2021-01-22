@@ -198,6 +198,33 @@ LU.cpp.s:
 	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LinearAlgebra.dir/build.make src/CMakeFiles/LinearAlgebra.dir/LU.cpp.s
 .PHONY : LU.cpp.s
 
+Pivot.o: Pivot.cpp.o
+
+.PHONY : Pivot.o
+
+# target to build an object file
+Pivot.cpp.o:
+	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LinearAlgebra.dir/build.make src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o
+.PHONY : Pivot.cpp.o
+
+Pivot.i: Pivot.cpp.i
+
+.PHONY : Pivot.i
+
+# target to preprocess a source file
+Pivot.cpp.i:
+	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LinearAlgebra.dir/build.make src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.i
+.PHONY : Pivot.cpp.i
+
+Pivot.s: Pivot.cpp.s
+
+.PHONY : Pivot.s
+
+# target to generate assembly for a file
+Pivot.cpp.s:
+	cd /Users/yuhi/LinearAlgebra/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LinearAlgebra.dir/build.make src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.s
+.PHONY : Pivot.cpp.s
+
 VecUtil.o: VecUtil.cpp.o
 
 .PHONY : VecUtil.o
@@ -294,6 +321,9 @@ help:
 	@echo "... LU.o"
 	@echo "... LU.i"
 	@echo "... LU.s"
+	@echo "... Pivot.o"
+	@echo "... Pivot.i"
+	@echo "... Pivot.s"
 	@echo "... VecUtil.o"
 	@echo "... VecUtil.i"
 	@echo "... VecUtil.s"

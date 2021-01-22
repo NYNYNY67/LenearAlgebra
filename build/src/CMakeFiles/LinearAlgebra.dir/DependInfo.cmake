@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/yuhi/LinearAlgebra/src/Gauss.cpp" "/Users/yuhi/LinearAlgebra/build/src/CMakeFiles/LinearAlgebra.dir/Gauss.cpp.o"
   "/Users/yuhi/LinearAlgebra/src/LU.cpp" "/Users/yuhi/LinearAlgebra/build/src/CMakeFiles/LinearAlgebra.dir/LU.cpp.o"
+  "/Users/yuhi/LinearAlgebra/src/Pivot.cpp" "/Users/yuhi/LinearAlgebra/build/src/CMakeFiles/LinearAlgebra.dir/Pivot.cpp.o"
   "/Users/yuhi/LinearAlgebra/src/VecUtil.cpp" "/Users/yuhi/LinearAlgebra/build/src/CMakeFiles/LinearAlgebra.dir/VecUtil.cpp.o"
   "/Users/yuhi/LinearAlgebra/src/cond.cpp" "/Users/yuhi/LinearAlgebra/build/src/CMakeFiles/LinearAlgebra.dir/cond.cpp.o"
   "/Users/yuhi/LinearAlgebra/src/det.cpp" "/Users/yuhi/LinearAlgebra/build/src/CMakeFiles/LinearAlgebra.dir/det.cpp.o"
