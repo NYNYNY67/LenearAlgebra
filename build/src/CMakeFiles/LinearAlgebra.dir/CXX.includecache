@@ -24,6 +24,16 @@ vector
 iostream
 -
 
+/Users/yuhi/LinearAlgebra/src/Gauss.cpp
+Gauss.hpp
+/Users/yuhi/LinearAlgebra/src/Gauss.hpp
+Pivot.hpp
+/Users/yuhi/LinearAlgebra/src/Pivot.hpp
+VecUtil.hpp
+/Users/yuhi/LinearAlgebra/src/VecUtil.hpp
+complex
+-
+
 /Users/yuhi/LinearAlgebra/src/LU.cpp
 LU.hpp
 /Users/yuhi/LinearAlgebra/src/LU.hpp

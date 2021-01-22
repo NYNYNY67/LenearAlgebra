@@ -53,7 +53,6 @@ void LUSolve(vector<vector<float>> L, vector<vector<float>> U, vector<float> &x,
 {
     int n=L.size();
     vector<float> tmp(n, 0); // tmp = Ux　とする。
-    ForwardErase(L, y, false);
-    for (int i=0; i<n; i++) tmp[i] = y[i];
+    FrontSubstition(L, tmp, y);
     BackSubstition(U, x, tmp);
 }

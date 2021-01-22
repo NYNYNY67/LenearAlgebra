@@ -8,3 +8,5 @@ void GaussJordan(vector<vector<float>> A, vector<float> &x, vector<float> y);
 void ForwardErase(vector<vector<float>> &A, vector<float> &y, bool pivot=true);
 // 後退代入
 void BackSubstition(const vector<vector<float>> &A, vector<float> &x, const vector<float> &y);
+// 前進代入 O(n^2)
+void FrontSubstition(const vector<vector<float>> &A, vector<float> &x, const vector<float> &y);
